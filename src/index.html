@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 @@include('components/page-blocks/_head.html',{
-"lang":"en",
-"title":"Easy-webdev-startpack v3.0",
-"description":"Gulp pack for easy html/php markup development",
-"keywords":"",
+"lang":"ru",
+"title":"YKTRUN – Главная страница",
+"description":"Описание страницы",
+"keywords":"ключевые, слова",
 "favicon":"img/favicons/favicon",
 })
 
 <body>
 	@@include('components/page-blocks/_header.html')
-	<main class="main"></main>
+	<main class="main">
+		
+		<div id="fullpage">
+			<div class="section " id="section0"><h1>fullPage.js</h1></div>
+			<div class="section" id="section1">
+				<div class="slide" id="slide1"><h1>Slide Backgrounds</h1></div>
+				<div class="slide" id="slide2"><h1>Totally customizable</h1></div>
+			</div>
+			<div class="section" id="section2"><h1>Lovely images <br />for a lovely page</h1></div>
+			<div class="section" id="section3"><h1>One Image = One thousand words</h1></div>
+		</div>
+
+	</main>
 	@@include('components/page-blocks/_footer.html')
 	@@include('components/page-blocks/_scripts.html')
 </body>
